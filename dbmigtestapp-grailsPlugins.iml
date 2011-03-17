@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/database-migration-0.2/grails-app/views" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/database-migration-0.2">
+      <sourceFolder url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/database-migration-0.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/database-migration-0.2/grails-app/controllers" isTestSource="false" />
+      <excludeFolder url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/database-migration-0.2/target/classes" />
+      <excludeFolder url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/database-migration-0.2/target/test-classes" />
+      <excludeFolder url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/database-migration-0.2/web-app/plugins" />
+    </content>
     <content url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/dbconsole-1.0">
       <excludeFolder url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/dbconsole-1.0/target/classes" />
       <excludeFolder url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/dbconsole-1.0/target/test-classes" />
@@ -26,6 +43,7 @@
           <root url="file://$DOTGRAILS$/1.3.7/projects/dbmigtestapp/plugins/tomcat-1.3.7/lib" />
           <root url="jar://$HOME_DIR$/.ivy2/cache/junit/junit/jars/junit-3.8.1.jar!/" />
           <root url="jar://$HOME_DIR$/.ivy2/cache/com.h2database/h2/jars/h2-1.3.146.jar!/" />
+          <root url="jar://$HOME_DIR$/.ivy2/cache/org.liquibase/liquibase-core/jars/liquibase-core-2.0.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
