@@ -4,7 +4,10 @@ class Event {
 
 	String title
 	Speaker speaker
-	Date date
+	Date dateStart
+	Room room
+
+	double amount
 
     static constraints = {
     }

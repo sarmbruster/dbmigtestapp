@@ -10,7 +10,7 @@ databaseChangeLog = {
 				constraints(nullable: "false")
 			}
 
-			column(name: "date", type: "timestamp") {
+			column(name: "date_start", type: "timestamp") {
 				constraints(nullable: "false")
 			}
 
@@ -43,4 +43,7 @@ databaseChangeLog = {
 	changeSet(author: "stefan (generated)", id: "1300368282415-3") {
 		addForeignKeyConstraint(baseColumnNames: "speaker_id", baseTableName: "event", constraintName: "FK5C6729A83ACC7E6", deferrable: "false", initiallyDeferred: "false", referencedColumnNames: "id", referencedTableName: "speaker", referencesUniqueColumn: "false")
 	}
+
+
+	include file: 'roomFeature.groovy'
 }
